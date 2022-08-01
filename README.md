@@ -1,30 +1,21 @@
-<img src= "Images/banner.png" width="930" height="200">
+<img src= "Images/banner.png" width="930" height="250">
 
 # SMART CONTRACTS FOR JOINT SAVINGS ACCOUNTS
 
-This Python script creates a Streamlit application to assist in hiring and paying FinTech professionals via Ethereum. The application permits the selection of a professional and specification of how many hours you wish to hire them for. After details are filled in, the applicaiton transacts the user's selection and pays the hired candidate accordingly.
+This repo contains a Solidity script for a smart contract that automates the process of hosting joint savings accounts.  
+
+To automate the creation of joint savings accounts, the Solidity smart contract accepts two user addresses. These addresses are able to control a joint savings account. The smart contract uses ether management functions to implement a financial institution’s requirements for providing the features of the joint savings account, including the ability to deposit and withdraw funds from the account.
 
 ---
 ## Technologies
 
-This application leverages Python 3.7.2.
+This application leverages Solidity version 0.5.0.
 
 ---
 ## Installation Guide
 
 * Begin by cloning the GitHub repo (the same repo that this README.md file is contained within) into your terminal. 
 
-*  Create a new environment and install the below listed dependencies. To do so, in your terminal while in this same repo, pass the following commands in order:
-
-```python
-conda create -n env_whatever_name python==3.7.2+ (i.e. any python version above 3.7.1)
-conda activae env_whatever_name
-pip install streamlit
-pip install web3==5.17
-pip install eth-tester==0.5.0b3
-pip install mnemonic
-pip install bip44
-```
 * Next, download [Ganache](https://www.trufflesuite.com/ganache).
 
 * After installing and opening Ganache, copy the mnemonic phrase listed up top. For reference (the 12 words behind the black highlight):
